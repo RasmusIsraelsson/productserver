@@ -39,6 +39,14 @@ src
 4. Kör `npm i` för att installera alla programmets dependencies
 5. Kör `npm run dev` för att köra programmet
 
+### Endpoints
+/database-find/:CatalogEntryCode
+Denna endpointen hämtar alla object för specifierat CatalogEntryCode
+
+#### Felmeddelanden
+- 200 (OK) - Successfully returned data
+- 400 (Bad Request) - Parameters provided invalid
+
 ### Kontakt:
 
 Om ni har några frågor kan ni alltid nå mig på rasmus.israelsson1@gmail.com
