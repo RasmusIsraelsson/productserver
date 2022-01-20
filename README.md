@@ -10,8 +10,8 @@ Rasmus, er framtida kollega ;)
 
 ## Live Demo
 
-Exempel 1: "https://arbetspserver.herokuapp.com/database-find/27773-02"
-Exempel 2: "https://arbetspserver.herokuapp.com/database-find/20866-02"
+Exempel 1: "https://arbetsprovserver.herokuapp.com/database-find/27773-02"
+Exempel 2: "https://arbetsprovserver.herokuapp.com/database-find/20866-02"
 
 ## Kod som är intressant för er att kolla på
 
