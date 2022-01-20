@@ -14,7 +14,7 @@ app.get('/database-find/:CatalogEntryCode', async function (req, res) {
 
 		//PRODUCT NOT FOUND
 		if (!product) {
-			res.status(404).send('product not found');
+			res.status(400).send('product not found');
 			return;
 		}
 		// SUCESS sending data
