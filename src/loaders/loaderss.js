@@ -6,6 +6,8 @@ require('dotenv').config();
 // Import Express and initialize Express Server Application
 const express = require('express');
 const app = express();
+const cors = require('cors');
+app.use(cors());
 
 // Import Express Handlebars for rendering HTML with {{brackets}}
 app.use(require('./express-handlebars'));
