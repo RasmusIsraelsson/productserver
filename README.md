@@ -40,8 +40,11 @@ src
 5. Kör `npm run dev` för att köra programmet
 
 ### Endpoints
+`
 /database-find/:CatalogEntryCode
+`<br>
 Denna endpointen hämtar alla object för specifierat CatalogEntryCode
+
 
 #### Felmeddelanden
 - 200 (OK) - Successfully returned data
